@@ -6,4 +6,10 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/nuxtjs/",
   },
+  generate: {
+    routes: [
+      "/user/:id",
+      // add additional dynamic routes here as needed
+    ],
+  },
 });
