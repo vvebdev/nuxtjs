@@ -5,5 +5,8 @@ export default defineNuxtConfig({
   modules: ["@pinia/nuxt"],
   app: {
     baseURL: "/nuxtjs/",
+    head: {
+      link: [{ rel: "icon", type: "image/png", href: "nuxtjs/favicon.ico" }],
+    },
   },
 });
