@@ -6,11 +6,4 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/nuxtjs/",
   },
-  nitro: {
-    output: {
-      dir: ".output",
-      serverDir: ".output/server",
-      publicDir: ".output/public",
-    },
-  },
 });
