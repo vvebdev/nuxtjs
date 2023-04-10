@@ -6,7 +6,13 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/nuxtjs/",
     head: {
-      link: [{ rel: "icon", type: "image/png", href: "nuxtjs/favicon.ico" }],
+      link: [
+        {
+          rel: "shortcut icon",
+          type: "image/x-icon",
+          href: "/nuxtjs/favicon.ico",
+        },
+      ],
     },
   },
 });
