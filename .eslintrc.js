@@ -11,7 +11,6 @@ module.exports = {
   rules: {
     'no-undef': 'off',
     'no-plusplus': 'off',
-    // 'no-plusplus': 'error',
     'no-console': 'error',
     'no-debugger': 'error',
     'vue/multi-word-component-names': 'off',
