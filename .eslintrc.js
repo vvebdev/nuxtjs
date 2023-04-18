@@ -10,8 +10,8 @@ module.exports = {
   // override/add rules settings here, such as:
   rules: {
     'no-undef': 'off',
-    // "no-plusplus": "off",
-    // "no-plusplus": "error",
+    'no-plusplus': 'off',
+    // 'no-plusplus': 'error',
     'no-console': 'error',
     'no-debugger': 'error',
     'vue/multi-word-component-names': 'off',
