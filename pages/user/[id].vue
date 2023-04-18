@@ -9,8 +9,8 @@
 </template>
 
 <script setup>
-import Button from "@/components/ui/button.vue";
-import { useCounterStore } from "@/stores/counter";
+import Button from '@/components/ui/button.vue';
+import { useCounterStore } from '@/stores/counter';
 
 const route = useRoute();
 const counter = useCounterStore();

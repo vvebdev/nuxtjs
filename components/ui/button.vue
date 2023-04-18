@@ -3,5 +3,5 @@
 </template>
 
 <script setup>
-const textButton = "textButton";
+const textButton = 'textButton';
 </script>
