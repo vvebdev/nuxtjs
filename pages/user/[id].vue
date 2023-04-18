@@ -3,16 +3,14 @@
   <h2>this is userId = {{ id }}</h2>
   <h2>this is counter.count = {{ counter.count }}</h2>
   <Button @click="counter.increment()" />
-  <br>
-  <br>
-  <NuxtLink to="/">
-    to index
-  </NuxtLink>
+  <br />
+  <br />
+  <NuxtLink to="/"> to index </NuxtLink>
 </template>
 
 <script setup>
-import Button from '@/components/ui/button.vue'
-import { useCounterStore } from '@/stores/counter'
+import Button from "@/components/ui/button.vue";
+import { useCounterStore } from "@/stores/counter";
 
 const route = useRoute();
 const counter = useCounterStore();

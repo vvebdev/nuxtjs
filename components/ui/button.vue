@@ -2,6 +2,6 @@
   <button>{{ textButton }}</button>
 </template>
 
-<script setup lang="ts">
-  const textButton:string = 'textButton'
+<script setup>
+const textButton = "textButton";
 </script>
