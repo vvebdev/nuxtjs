@@ -1,11 +1,11 @@
 <template>
-  <h1>user h1</h1>
-  <h2>this is userId = {{ id }}</h2>
-  <h2>this is counter.count = {{ counter.count }}</h2>
-  <Button @click="counter.increment()" />
+  <h1>{{ $t('userPage.title') }}</h1>
+  <h2>{{ $t('userPage.userId') }} = {{ id }}</h2>
+  <h2>{{ $t('counter') }} = {{ counter.count }}</h2>
+  <Button :text="$t('button')" @click="counter.increment()" />
   <br />
   <br />
-  <NuxtLink to="/"> to index </NuxtLink>
+  <NuxtLink to="/">{{ $t('userPage.toMain') }}</NuxtLink>
 </template>
 
 <script setup>

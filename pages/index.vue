@@ -1,7 +1,7 @@
 <template>
-  <h1>index h1</h1>
-  <h2>counter.count = {{ counter.count }}</h2>
-  <NuxtLink to="/user/2"> to user </NuxtLink>
+  <h1>{{ $t('mainPage.title') }}</h1>
+  <h2>{{ $t('counter') }} = {{ counter.count }}</h2>
+  <NuxtLink to="/user/2"> {{ $t('mainPage.toUser') }} </NuxtLink>
   <br /><br /><br /><br />
   <select v-model="$i18n.locale">
     <option

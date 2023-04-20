@@ -9,9 +9,31 @@ export default defineNuxtPlugin(({ vueApp }) => {
     messages: {
       en: {
         hello: 'Hello, {name}!',
+        counter: 'Counter',
+        button: 'Click me!',
+        mainPage: {
+          title: 'Main page title',
+          toUser: 'To user',
+        },
+        userPage: {
+          title: 'User page title',
+          toMain: 'To main',
+        },
       },
       ru: {
         hello: 'Привет, {name}!',
+        counter: 'Счетчик',
+        button: 'Кликни меня!',
+        mainPage: {
+          title: 'Заголовок главной страницы',
+          userId: 'this is userId',
+          toUser: 'Перейти к юзеру',
+        },
+        userPage: {
+          title: 'Заголовок страницы пользователя',
+          userId: 'Id пользователя',
+          toMain: 'На главную',
+        },
       },
     },
   });

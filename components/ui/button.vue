@@ -1,7 +1,12 @@
 <template>
-  <button>{{ textButton }}</button>
+  <button>{{ text }}</button>
 </template>
 
 <script setup>
-const textButton = 'textButton';
+defineProps({
+  text: {
+    type: String,
+    default: '',
+  },
+});
 </script>
