@@ -12,10 +12,11 @@
     "eslint": "^8.38.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-vue": "^9.11.0",
-    "nuxt": "^3.3.3",
-    "vite-plugin-eslint": "^1.8.1"
+    "nuxt": "^3.4.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vue-i18n": "^9.2.2"
   },
   "dependencies": {
-    "@pinia/nuxt": "^0.4.8"
+    "@pinia/nuxt": "^0.4.9"
   }
 }
